@@ -21,7 +21,7 @@ export default function Messenger() {
 
   //connecting to socket
   useEffect(() => {
-    socket.current = io('ws://localhost:8900');
+    socket.current = io('https://backend-ppzm.onrender.com');
 
     socket.current.on('getMessage', (data) => {
       setArrivalMessage({
