@@ -1,0 +1,76 @@
+.search-form {
+    position: relative;
+    width: 80%;
+    margin-left: 70px;
+}
+  
+  .search-form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-form input:focus{
+    outline: none;
+  }
+  
+  .users {
+    position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  border-radius: 10px;
+  }
+
+.users.hide {
+    display: none;
+}
+  
+.users a {
+    display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #333;
+}
+  
+.users a:hover {
+    color: #000;
+}
+  
+  .user-card {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid black;
+  }
+  
+  .user-card .userCardImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .user-card span {
+    text-align: center;
+    padding: 10px 5px;
+  }
+  
+  
+  
+  
+  
+  
+  
