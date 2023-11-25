@@ -40,7 +40,7 @@ export default function Topbar() {
         </div>
 
         <div className='topbarIcons'>
-          <Link to={`assets/profile/${user.username}`}>
+          <Link to={`${user.username}`}>
             <img src={user.profilePicture ? `assets/${user.profilePicture}` : 'assets/person/noProfilePic.png'} alt='' className='topbarImg' />
           </Link>
           <span className='topbarLink2' onClick={handleClick}>
